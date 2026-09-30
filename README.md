@@ -51,6 +51,9 @@ Formulé 5 requisitos verificables vinculados al prototipo:
 *   **RU3:** Deshacer o corregir antes de confirmar (E10) → Pantalla 3.
 *   **RU4:** Leer estado confirmado inconfundiblemente (E5, E8) → Pantalla 4.
 *   **RU5:** Iniciar reprogramación sin chat (E7, E10) → Pantalla 4.
+## Aporte de Pedro — Análisis IHC y DCU
+
+_(Sección a cargo de Pedro: matriz humano–sistema, contexto de uso, persona, escenario, journey map y requisitos.)_
 
 ## Aporte de Vladimir — Usabilidad y accesibilidad
 
