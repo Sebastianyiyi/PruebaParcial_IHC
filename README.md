@@ -22,6 +22,35 @@ Interacción Humano Computador · Quinto semestre · Docente: Ing. José Rubén 
 | Mora Beltrán Santiago Sebastián | @ | Decisiones de diseño y evaluación | `feature/santiago-...` |
 | Vinces Cueva Boris Yussef | @ | Prototipo en Figma | `feature/boris-prototipo-figma` |
 
+## Aporte de Sebastián — Análisis IHC y DCU
+
+## Aporte de Pedro — Análisis IHC y DCU
+
+Evidencias: 
+* [docs/01_matriz_ihc.pdf](docs/01_matriz_ihc.pdf)
+* [docs/03_dcu_contexto.pdf](docs/03_dcu_contexto.pdf)
+
+Como Analista DCU y dueño del repositorio, preparé la estructura inicial en `main` y aporté los fundamentos para comprender el problema actual, basándome estrictamente en el paquete de evidencias.
+
+**1. Matriz Humano-Sistema (Actividad 1)**
+Identifiqué a los actores principales y los componentes de la solución:
+*   **Personas:** El estudiante busca agilidad desde su teléfono (E1), algunos con necesidad de lector de pantalla (E2). Los docentes y secretaría buscan evitar errores manuales (E6, E7).
+*   **Sistema y Entrada/Salida:** La aplicación centraliza disponibilidades (E6) y devuelve estados claros para evitar ambigüedades o selecciones erróneas (E3, E10).
+*   **Disciplinas:** La informática reduce mensajes (E4), la ergonomía adapta la app al bus (E1), y la psicología/diseño evitan íconos ambiguos (E2, E9).
+
+**2. Contexto de Uso, Persona y Escenario (Actividad 3)**
+Definí el contexto móvil y la conexión variable (E1, E8). Creé a "Carlos", un estudiante de 20 años que viaja en bus, usa lector de pantalla (E2) y se frustra por los 14 minutos que toma reservar por WhatsApp (E1, E4). El escenario plantea su necesidad urgente de agendar una tutoría sin perderse en el chat.
+
+**3. Journey Map del Proceso Actual (Actividad 3)**
+Mapeé las 5 etapas del problema en WhatsApp: Buscar (E1), Contactar (E6), Acordar (E3), Confirmar (E5) y Cambiar (E7). Esto evidenció la oportunidad de tener horarios en tiempo real y estados inconfundibles.
+
+**4. Requisitos de Usuario (Actividad 3)**
+Formulé 5 requisitos verificables vinculados al prototipo:
+*   **RU1:** Ver solo horarios libres en el teléfono para no equivocarse (E1, E3) → Pantalla 2.
+*   **RU2:** Operar con teclado para no depender del ratón (E2) → Pantallas 2 y 3.
+*   **RU3:** Deshacer o corregir antes de confirmar (E10) → Pantalla 3.
+*   **RU4:** Leer estado confirmado inconfundiblemente (E5, E8) → Pantalla 4.
+*   **RU5:** Iniciar reprogramación sin chat (E7, E10) → Pantalla 4.
 ## Aporte de Pedro — Análisis IHC y DCU
 
 _(Sección a cargo de Pedro: matriz humano–sistema, contexto de uso, persona, escenario, journey map y requisitos.)_
