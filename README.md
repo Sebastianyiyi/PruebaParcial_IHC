@@ -19,12 +19,10 @@ Interacción Humano Computador · Quinto semestre · Docente: Ing. José Rubén 
 |---|---|---|---|
 | Acaro Ibujés Pedro Sebastián | @Sebastianyiyi | Analista DCU · dueño del repositorio | `feature/sebastian-análisis-dcu` |
 | González Álvarez Vladimir Humberto | @VladAlz | Usabilidad y accesibilidad · coordinación | `feature/vladimir-usabilidad-accesibilidad` |
-| Mora Beltrán Santiago Sebastián | @ | Decisiones de diseño y evaluación | `feature/santiago-...` |
-| Vinces Cueva Boris Yussef | @ | Prototipo en Figma | `feature/boris-prototipo-figma` |
+| Mora Beltrán Santiago Sebastián | @Santio13-code | Decisiones de diseño y evaluación | `feature/santiago-decisionesevaluacion.` |
+| Vinces Cueva Boris Yussef | @Boris2403 | Prototipo en Figma | `feature/boris-prototipo-figma` |
 
 ## Aporte de Sebastián — Análisis IHC y DCU
-
-## Aporte de Pedro — Análisis IHC y DCU
 
 Evidencias: 
 * [docs/01_matriz_ihc.pdf](docs/01_matriz_ihc.pdf)
@@ -51,9 +49,6 @@ Formulé 5 requisitos verificables vinculados al prototipo:
 *   **RU3:** Deshacer o corregir antes de confirmar (E10) → Pantalla 3.
 *   **RU4:** Leer estado confirmado inconfundiblemente (E5, E8) → Pantalla 4.
 *   **RU5:** Iniciar reprogramación sin chat (E7, E10) → Pantalla 4.
-## Aporte de Pedro — Análisis IHC y DCU
-
-_(Sección a cargo de Pedro: matriz humano–sistema, contexto de uso, persona, escenario, journey map y requisitos.)_
 
 ## Aporte de Vladimir — Usabilidad y accesibilidad
 
@@ -81,11 +76,46 @@ También aporté la disciplina de ergonomía en la matriz humano–sistema y coo
 
 ## Aporte de Santiago — Decisiones de diseño y evaluación
 
-_(Sección a cargo de Santiago: matriz de decisiones de diseño, leyes Gestalt y registro de la prueba cruzada.)_
+Evidencias:
+* [docs/04_decisiones_diseno.pdf](docs/04_decisiones_diseno.pdf)
+* [evaluacion/prueba_iteracion.md](evaluacion/prueba_iteracion.md)
 
-## Aporte de Boris — Guía de estilo y prototipo
+Como encargado de las decisiones de diseño y la evaluación cruzada, formalicé los principios de IHC para garantizar una baja carga cognitiva, prevención de errores y un flujo interactivo evaluarle con usuarios.
 
-_(Sección a cargo de Boris: guía de estilo, cuatro pantallas conectadas y mejora aplicada.)_
+**1. Decisiones de diseño e IHC (Actividad 4)**
+* **Metáforas e Iconografía:** Utilización de la metáfora del *Calendario académico* y la *Tarjeta de cita* (E9) para reducir la curva de aprendizaje, complementada con símbolos universales (candado para elementos bloqueados/ocupados) para evitar ambigüedades.
+* **Affordance y Mapeo:** Controles de horarios configurados con estados visuales diferenciados (radio-buttons, bordes y etiquetas «Disponible», «Ocupado» y «Seleccionado») para dejar claro qué elementos admiten interacción (E3, E9).
+* **Manipulación Directa:** Selección directa de bloques de hora sin necesidad de escribir comandos o enviar mensajes manuales (E10).
+* **Carga Cognitiva y Gestalt:** Aplicación estricta de las leyes Gestalt:
+  * *Proximidad:* Agrupación de fechas y horas en bloques coherentes.
+  * *Semejanza:* Estilos unificados para botones primarios y tarjetas de docentes.
+  * *Figura-Fondo:* Tarjetas elevadas sobre fondos neutros para destacar la información clave y priorizar decisiones (E4, E5).
+* **Retroalimentación y Riesgo Cultural:** Notificación de estado mediante confirmaciones inequívocas (resumen de cita previa a la confirmación final y alerta de éxito con número de reserva) acompañadas de texto explícito (E2, E8).
+
+**2. Prueba Cruzada y Evaluación de Iteración (Actividad 6)**
+Conduje la prueba evaluativa del prototipo navegable con un usuario externo. Se registró un tiempo de ejecución de **5 minutos** (frente a los 14 minutos del proceso manual por WhatsApp, E4) y una tasa de éxito del 100% con hallazgos para iteración.
+
+**Mejoras concretas aplicadas al prototipo (Antes / Después):**
+1. **Control de usuario y recuperación de errores (E10):** Se integró la opción explícita «Volver / Corregir» en la Pantalla de Confirmación para permitir modificar selecciones previas sin perder datos.
+2. **Refuerzo de Perceptibilidad y Prevención de Errores (E3, E9):** Se añadió el icono de **candado** en la leyenda y dentro de los bloques de horarios «Ocupado», evitando intentos fallidos de selección de citas no disponibles.
+
+---
+
+## Aporte de Boris — Guía de estilo y prototipo 
+
+## Actualización de la Estructura del Prototipo
+
+Se ha actualizado la estructura de archivos del repositorio para integrar las evidencias y resultados de la fase de prototipado[cite: 1]. A continuación se describen los nuevos elementos añadidos:
+
+* **`Capturas/`**: Carpeta que almacena las evidencias visuales mediante capturas de pantalla de las diferentes interfaces del prototipo[cite: 1].
+* **`EnlacePrototipo.md`**: Archivo que contiene el enlace directo al proyecto en Figma, donde se puede visualizar y ejecutar el flujo de trabajo interactivo[cite: 1].
+* **`Antes\ Depués/`**: Directorio destinado a mostrar las iteraciones de diseño y los cambios realizados tras las pruebas de usuario[cite: 1]. Este apartado documenta específicamente las mejoras implementadas a partir de la prueba cruzada realizada por Santiago Mora, evidenciando correcciones como la adición de un botón de retorno y la implementación de un candado visual para denotar los horarios no disponibles[cite: 5].
+
+
+## Enlaces
+- FigJam:
+https://www.figma.com/board/RxNI7LFxOQOvLSq2LCuIog/Quetal?node-id=0-1&p=f&t=6QvPHekfe613jzYc-0
+- Prototipo: https://www.figma.com/proto/QO6lpg2qhDT3Tykj20B7Y9/Untitled?node-id=2-1639&p=f&t=tVEyy5TupkpnkvKf-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A1380
 
 ## Enlaces
 
@@ -123,18 +153,4 @@ PruebaParcial_IHC/
 
 
 
-## Aporte de Boris — Guía de estilo y prototipo 
 
-## Actualización de la Estructura del Prototipo
-
-Se ha actualizado la estructura de archivos del repositorio para integrar las evidencias y resultados de la fase de prototipado[cite: 1]. A continuación se describen los nuevos elementos añadidos:
-
-* **`Capturas/`**: Carpeta que almacena las evidencias visuales mediante capturas de pantalla de las diferentes interfaces del prototipo[cite: 1].
-* **`EnlacePrototipo.md`**: Archivo que contiene el enlace directo al proyecto en Figma, donde se puede visualizar y ejecutar el flujo de trabajo interactivo[cite: 1].
-* **`Antes\ Depués/`**: Directorio destinado a mostrar las iteraciones de diseño y los cambios realizados tras las pruebas de usuario[cite: 1]. Este apartado documenta específicamente las mejoras implementadas a partir de la prueba cruzada realizada por Santiago Mora, evidenciando correcciones como la adición de un botón de retorno y la implementación de un candado visual para denotar los horarios no disponibles[cite: 5].
-
-
-## Enlaces
-- FigJam:
-https://www.figma.com/board/RxNI7LFxOQOvLSq2LCuIog/Quetal?node-id=0-1&p=f&t=6QvPHekfe613jzYc-0
-- Prototipo: https://www.figma.com/proto/QO6lpg2qhDT3Tykj20B7Y9/Untitled?node-id=2-1639&p=f&t=tVEyy5TupkpnkvKf-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A1380
