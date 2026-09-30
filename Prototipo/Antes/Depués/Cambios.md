@@ -1,5 +1,12 @@
 ## Cambios realizados en el antes y después del prototipo
 
+Prueba Cruzada realizada por Santiago Mora
+
+Tiempo: 5 minutos
+
+Resultado: Aprobado con parametros de mejora
+
+Hallazgo: Mejoras de funcionalidades
 
 * Adición del botón de retorno en la configuración de horarios
 
