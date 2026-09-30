@@ -107,9 +107,9 @@ Conduje la prueba evaluativa del prototipo navegable con un usuario externo. Se 
 
 Se ha actualizado la estructura de archivos del repositorio para integrar las evidencias y resultados de la fase de prototipado[cite: 1]. A continuación se describen los nuevos elementos añadidos:
 
-* **`Capturas/`**: Carpeta que almacena las evidencias visuales mediante capturas de pantalla de las diferentes interfaces del prototipo[cite: 1].
-* **`EnlacePrototipo.md`**: Archivo que contiene el enlace directo al proyecto en Figma, donde se puede visualizar y ejecutar el flujo de trabajo interactivo[cite: 1].
-* **`Antes\ Depués/`**: Directorio destinado a mostrar las iteraciones de diseño y los cambios realizados tras las pruebas de usuario[cite: 1]. Este apartado documenta específicamente las mejoras implementadas a partir de la prueba cruzada realizada por Santiago Mora, evidenciando correcciones como la adición de un botón de retorno y la implementación de un candado visual para denotar los horarios no disponibles[cite: 5].
+* **`Capturas/`**: Carpeta que almacena las evidencias visuales mediante capturas de pantalla de las diferentes interfaces del prototipo.
+* **`EnlacePrototipo.md`**: Archivo que contiene el enlace directo al proyecto en Figma, donde se puede visualizar y ejecutar el flujo de trabajo interactivo.
+* **`Antes\ Depués/`**: Directorio destinado a mostrar las iteraciones de diseño y los cambios realizados tras las pruebas de usuario. Este apartado documenta específicamente las mejoras implementadas a partir de la prueba cruzada realizada por Santiago Mora, evidenciando correcciones como la adición de un botón de retorno y la implementación de un candado visual para denotar los horarios no disponibles.
 
 
 ## Enlaces
