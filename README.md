@@ -105,7 +105,7 @@ Conduje la prueba evaluativa del prototipo navegable con un usuario externo. Se 
 
 ## Actualización de la Estructura del Prototipo
 
-Se ha actualizado la estructura de archivos del repositorio para integrar las evidencias y resultados de la fase de prototipado[cite: 1]. A continuación se describen los nuevos elementos añadidos:
+Se ha actualizado la estructura de archivos del repositorio para integrar las evidencias y resultados de la fase de prototipado. A continuación se describen los nuevos elementos añadidos:
 
 * **`Capturas/`**: Carpeta que almacena las evidencias visuales mediante capturas de pantalla de las diferentes interfaces del prototipo.
 * **`EnlacePrototipo.md`**: Archivo que contiene el enlace directo al proyecto en Figma, donde se puede visualizar y ejecutar el flujo de trabajo interactivo.
